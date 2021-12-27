@@ -40,7 +40,7 @@
 .banner_button:hover {
   color: #000;
   background-color: #e6e6e6;
-  transtition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .banner--fadeBottom {

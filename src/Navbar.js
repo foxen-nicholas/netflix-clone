@@ -8,7 +8,8 @@ function Navbar() {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         setHandleShow(true);
-      } else setHandleShow(false);
+      } else {setHandleShow(false)
+      };
     });
     return () => {
       window.removeEventListener("scroll");
